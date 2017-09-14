@@ -1,0 +1,19 @@
+{
+  "name": "sqll",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "bin": {
+    "sqll": "bin/diga-oi.js"
+  },
+  "preferGlobal": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "*",
+    "mysql": "github:mysqljs/mysql"
+  },
+  "author": "Patrick Lobo (patricklobofilho@gmail.com)",
+  "license": "ISC"
+}
